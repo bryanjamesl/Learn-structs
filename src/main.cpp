@@ -8,6 +8,8 @@ struct Player
   int score;
 };
 
+// test to see if sync'd with githup 4-26-23
+
 void setup() {
   // put your setup code here, to run once:
 Serial.begin(9600);

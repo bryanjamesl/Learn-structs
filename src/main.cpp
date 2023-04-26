@@ -20,10 +20,10 @@ void loop() {
   struct Player player1;
   struct Player player2;
   
-  player1.name = "Sheree";
+  player1.name = "Bry";
   player1.score = 10;
 
-  player2.name = "Bryan";
+  player2.name = "James";
   player2.score = 4;
 
   Serial.print(player1.name);

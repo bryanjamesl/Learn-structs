@@ -2,7 +2,7 @@
 // #include <stdio.h>
 // #include <string.h>
 
-struct Player
+struct Player 
 {
   String name;
   int score;
@@ -17,8 +17,8 @@ Serial.begin(9600);
 
 void loop() {
   // put your main code here, to run repeatedly:
-  struct Player player1;
-  struct Player player2;
+  Player player1;
+  Player player2;
   
   player1.name = "Bry";
   player1.score = 10;
